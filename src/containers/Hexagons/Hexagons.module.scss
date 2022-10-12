@@ -1,0 +1,17 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  max-height: 100vh;
+  overflow: hidden;
+  background-color: black;
+}
+
+.row {
+  display: inline-flex;
+  margin-top: -32px;
+  margin-left: -50px;
+}
+
+.row:nth-child(even) {
+  margin-left: 1px;
+}
