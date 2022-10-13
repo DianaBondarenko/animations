@@ -1,6 +1,6 @@
-import { Link } from "react-router-dom";
-import styles from "./Home.module.scss";
-import { HEXAGONS_ROUTE, STROKED_HEXAGONS_ROUTE } from "../../constants";
+import { Link } from 'react-router-dom';
+import styles from './Home.module.scss';
+import { HEXAGONS_ROUTE, STROKED_HEXAGONS_ROUTE } from '../../constants';
 
 const Home = () => {
   return (

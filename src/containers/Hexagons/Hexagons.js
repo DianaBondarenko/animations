@@ -1,5 +1,5 @@
-import styles from "./Hexagons.module.scss";
-import Hexagon from "../../components/Hexagon/Hexagon";
+import styles from './Hexagons.module.scss';
+import Hexagon from '../../components/Hexagon/Hexagon';
 
 const Hexagons = ({ type }) => {
   const rowsQuantity = 15;
