@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import styles from './Home.module.scss';
-import { HEXAGONS_ROUTE, STROKED_HEXAGONS_ROUTE } from '../../constants';
+import { HEXAGONS_ROUTE, SCROLLING_TEXT_ROUTE, STROKED_HEXAGONS_ROUTE } from '../../constants';
 
 const Home = () => {
   return (
@@ -12,6 +12,9 @@ const Home = () => {
         </li>
         <li>
           <Link to={STROKED_HEXAGONS_ROUTE}>Stroked Hexagons</Link>
+        </li>
+        <li>
+          <Link to={SCROLLING_TEXT_ROUTE}>Scrolling Text</Link>
         </li>
       </ul>
     </div>
